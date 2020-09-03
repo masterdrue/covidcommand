@@ -65,30 +65,33 @@ function About(props) {
                 <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>About Us</BreadcrumbItem>
+                        <BreadcrumbItem active>About Covid Command</BreadcrumbItem>
                     </Breadcrumb>
-                    <h2>About Us</h2>
+                    <h2>About Covid Command</h2>
                     <hr />
                 </div>
             </div>
             <div className="row row-content">
                 <div className="col-sm-6">
-                    <h3>Our Mission</h3>
-                    <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with each other.</p>
+                    <h3>COVID COMMAND</h3>
+                    <p>Featuring a focused demonstration of COVID-19 data built with React. </p>
+                    <p>The COVID-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread. CDC has a long history of strengthening public health capacity throughout the world to contain outbreaks at their source and minimize their impact. </p>
                 </div>
                 <div className="col-sm-6">
                     <Card>
-                        <CardHeader className="bg-primary text-white"><h3>Facts At a Glance</h3></CardHeader>
+                        <CardHeader className="bg-secondary text-white"><h3>CoronaVirus Stats</h3></CardHeader>
                         <CardBody>
                             <dl className="row">
-                                <dt className="col-6">Founded</dt>
-                                <dd className="col-6">February 3, 2016</dd>
-                                <dt className="col-6">No. of Campsites in 2019</dt>
-                                <dd className="col-6">563</dd>
-                                <dt className="col-6">No. of Reviews in 2019</dt>
-                                <dd className="col-6">4388</dd>
-                                <dt className="col-6">Employees</dt>
-                                <dd className="col-6">42</dd>
+                                <dt className="col-6">Pandemic Declaration </dt>
+                                <dd className="col-6">March 11, 2020</dd>
+                                <dt className="col-6">First Discovered</dt>
+                                <dd className="col-6">December 31, 2019</dd>
+                                <dt className="col-6">Date Updated</dt>
+                                <dd className="col-6">September 2, 2020</dd>
+                                <dt className="col-6">Confirmed Cases</dt>
+                                <dd className="col-6">25,602,665</dd>
+                                <dt className="col-6">Global Deaths</dt>
+                                <dd className="col-6">852,758</dd>
                             </dl>
                         </CardBody>
                     </Card>
@@ -97,10 +100,10 @@ function About(props) {
                     <Card className="bg-light mt-3">
                         <CardBody>
                             <blockquote className="blockquote">
-                                <p className="mb-0">I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail.</p>
-                                <footer className="blockquote-footer">Muriel Strode,{' '}
-                                    <cite title="Source Title">"Wind-Wafted Wild Flowers" -
-                                    The Open Court, 1903</cite>
+                                <p className="mb-0">The way forward is to not look back, but remember the path from which has already been traveled.</p>
+                                <footer className="blockquote-footer">Drue McCombs,{' '}
+                                    <cite title="Source Title">"Forward Sight" -
+                                    Rabling at my Desk - Sept 2020</cite>
                                 </footer>
                             </blockquote>
                         </CardBody>
@@ -109,7 +112,7 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-12">
-                    <h3>Community Partners</h3>
+                    <h3>COVID RESOURCES</h3>
                 </div>
                 <PartnerList partners={props.partners} />
             </div>
