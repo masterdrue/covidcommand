@@ -112,3 +112,8 @@ h2 {
 .button {
   color: white;
 }
+.img-logo {
+  background-image: url(/assets/images/logo-trans-30.png);
+  height: 30px;
+  widows: 30px;
+} 

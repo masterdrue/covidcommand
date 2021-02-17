@@ -1,8 +1,8 @@
 {
   "name": "covidcommand",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "https://masterdrue.github.io/covidcommand",
+  "homepage": "https://masterdrue.github.io/covidcommand/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -30,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
