@@ -19,8 +19,8 @@ function Footer(props) {
                         <ButtonGroup>
                             <Button href="/home">Home</Button>
                             <Button href="/directory">Directory</Button>
-                            <Button href="/aboutus">About Us</Button>
-                            <Button href="/contactus">Contact Us</Button>
+                            <Button href="/aboutus">About</Button>
+                            <Button href="/contactus">Contact</Button>
                         </ButtonGroup>
                     </div>
                     
